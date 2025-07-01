@@ -13,7 +13,7 @@
         }
         .hero-bg {
             background-color: #1a202c;
-            background-image: linear-gradient(to right, rgba(26, 32, 44, 0.95), rgba(45, 55, 72, 0.95)), url('https://placehold.co/1920x1080/2d3748/4a5568?text=Tech+Infra');
+            background-image: linear-gradient(to right, rgba(26, 32, 44, 0.95), rgba(45, 55, 72, 0.95)), url('https://placehold.co/1920x1080/2d3748/4a5568?text=Tech+Infrastructure');
             background-size: cover;
             background-position: center;
         }
@@ -63,15 +63,12 @@
         <!-- About Me Section -->
         <section id="about" class="mb-16">
             <h2 class="text-3xl font-bold mb-8 text-center section-title">Sobre Mí</h2>
-            <div class="bg-white p-8 rounded-lg shadow-md max-w-4xl mx-auto text-lg text-gray-700 leading-relaxed">
-                <p class="mb-4">
-                    Soy un L3 System Engineer en <strong class="text-gray-900">HBX Group</strong>, una de las empresas de tecnología turística más importantes del mundo. Mi pasión es la administración de sistemas en entornos complejos que combinan tecnologías on-premises y cloud.
+            <div class="bg-white p-8 rounded-lg shadow-xl max-w-4xl mx-auto text-lg text-gray-700 leading-relaxed text-center">
+                <p class="text-xl">
+                    Como Ingeniero de Sistemas L3, mi pasión es hacer que la tecnología trabaje para las personas, y no al revés. Me especializo en transformar los departamentos de TI, convirtiéndolos de un centro de costes reactivo en un <strong class="font-semibold text-gray-900">motor de valor proactivo</strong> para el negocio. Con más de 6 años de experiencia en entornos de alta criticidad, mi misión es diseñar, automatizar y blindar infraestructuras complejas.
                 </p>
-                <p class="mb-4">
-                    Mi filosofía profesional se aleja del modelo reactivo de "apagar fuegos". Creo firmemente que un administrador de sistemas moderno debe ser un estratega proactivo. Como he dicho antes: <em class="italic">"Un sysadmin que vive apagando fuegos está en peligro. Ese modelo de trabajo es carne de automatización"</em>.
-                </p>
-                <p>
-                    Mi enfoque se centra en la <strong class="text-gray-900">automatización</strong> para eliminar tareas repetitivas, la <strong class="text-gray-900">documentación</strong> exhaustiva para asegurar la continuidad y la <strong class="text-gray-900">anticipación</strong> de problemas para garantizar la estabilidad y el rendimiento del negocio.
+                <p class="mt-4 text-xl">
+                    Veo los desafíos operativos como <strong class="font-semibold text-gray-900">oportunidades de mejora</strong>, y me dedico a construir sistemas que no solo sean estables y eficientes hoy, sino que estén preparados para el futuro. Mi filosofía es clara: <em class="italic text-gray-900 font-semibold">"un sysadmin que vive apagando fuegos está en peligro. Ese modelo de trabajo es carne de automatización."</em>
                 </p>
             </div>
         </section>
@@ -130,94 +127,40 @@
 
         <!-- Skills Section -->
         <section id="skills" class="mb-16">
-            <h2 class="text-3xl font-bold mb-8 text-center section-title">Competencias Clave</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Columna 1 -->
-                <div class="space-y-8">
-                    <div class="card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold mb-3 text-blue-700"><i class="fas fa-cloud mr-2"></i>Cloud & Identity</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Azure</span>
-                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Microsoft 365</span>
-                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Active Directory</span>
-                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Entra ID</span>
-                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">SSO (SAML)</span>
-                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">SCCM</span>
-                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Intune</span>
-                        </div>
-                    </div>
-                    <div class="card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold mb-3 text-teal-700"><i class="fas fa-cogs mr-2"></i>Herramientas & Plataformas</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">Jira</span>
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">Confluence</span>
-                            <span class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm">Service Desk</span>
-                        </div>
-                    </div>
+            <h2 class="text-3xl font-bold mb-12 text-center section-title">Panel de Competencias</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Columna 1: Infraestructura y Virtualización -->
+                <div class="card bg-white p-6 rounded-lg shadow-md h-full">
+                    <h3 class="text-xl font-bold mb-4 text-center text-blue-800"><i class="fas fa-server mr-2"></i>Infraestructura y Virtualización</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Sistemas Operativos: Windows Server, Linux</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Virtualización: VMware, Hyper-V, Proxmox, Citrix</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Hardware: Servidores (HPE/Dell/Fujitsu)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Almacenamiento: Cabinas (HPE, Fujitsu), NAS (QNAP)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Backup y Recuperación: Veeam Backup, Commvault</li>
+                    </ul>
                 </div>
-                <!-- Columna 2 -->
-                <div class="space-y-8">
-                    <div class="card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold mb-3 text-green-700"><i class="fas fa-shield-alt mr-2"></i>Seguridad & Endpoint</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Hardening</span>
-                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">GPOs</span>
-                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Sophos</span>
-                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Trend Micro XDR</span>
-                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Stormshield</span>
-                        </div>
-                    </div>
-                    <div class="card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold mb-3 text-yellow-700"><i class="fas fa-code mr-2"></i>Automatización & IA</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">PowerShell</span>
-                            <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Bash</span>
-                            <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Python</span>
-                            <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Habilidades con IA</span>
-                        </div>
-                    </div>
+                <!-- Columna 2: Cloud, Automatización y Gestión -->
+                <div class="card bg-white p-6 rounded-lg shadow-md h-full">
+                    <h3 class="text-xl font-bold mb-4 text-center text-purple-800"><i class="fas fa-cogs mr-2"></i>Cloud, Automatización y Gestión</h3>
+                     <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Cloud: Azure, Microsoft 365</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Identidad: Active Directory, Entra ID, SSO</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Gestión de Endpoints: SCCM, Intune</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Scripting: PowerShell, Bash, Batch, Python</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Plataformas: Jira, Confluence, Service Desk</li>
+                    </ul>
                 </div>
-                <!-- Columna 3 -->
-                <div class="space-y-8">
-                    <div class="card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold mb-3 text-purple-700"><i class="fas fa-server mr-2"></i>Infra & Virtualización</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">VMware</span>
-                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Hyper-V</span>
-                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Proxmox</span>
-                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Servidores (HPE/Dell/Fujitsu)</span>
-                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Almacenamiento (QNAP)</span>
-                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Veeam Backup</span>
-                        </div>
-                    </div>
-                     <div class="card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold mb-3 text-gray-700"><i class="fab fa-linux mr-2"></i>Sistemas Operativos</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">Linux</span>
-                            <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">Windows Server</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Columna 4 -->
-                <div class="space-y-8">
-                    <div class="card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold mb-3 text-red-700"><i class="fas fa-network-wired mr-2"></i>Networking</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">DNS/DHCP</span>
-                            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Firewalls</span>
-                            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Cisco (CCNA)</span>
-                            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">Fibra Óptica</span>
-                            <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm">WIMAX (Ubiquiti/Mikrotik)</span>
-                        </div>
-                    </div>
-                    <div class="card bg-white p-6 rounded-lg shadow-md">
-                        <h3 class="text-xl font-bold mb-3 text-indigo-700"><i class="fas fa-handshake mr-2"></i>Habilidades Profesionales</h3>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Don de gentes</span>
-                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Documentación Técnica</span>
-                            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Resolución de incidencias N2</span>
-                        </div>
-                    </div>
+                <!-- Columna 3: Seguridad y Redes -->
+                <div class="card bg-white p-6 rounded-lg shadow-md h-full">
+                    <h3 class="text-xl font-bold mb-4 text-center text-red-800"><i class="fas fa-shield-alt mr-2"></i>Seguridad y Redes</h3>
+                     <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Políticas y Hardening: GPOs, ENS, Conditional Access</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Seguridad Perimetral: Firewalls (Stormshield)</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Seguridad Endpoint: Sophos, Trend Micro XDR</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Networking: DNS, DHCP, VPN, VLANs, Routing (OSPF, BGP, STP), Cisco, IKEV2</li>
+                        <li class="flex items-center"><i class="fas fa-check-circle mr-3 text-green-500"></i>Monitorización: PRTG, PagerDuty, Site24x7, BMC Patrol</li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -248,6 +191,25 @@
                         <li><strong>Seguridad:</strong> Sophos Engineer, Trend Micro XDR, CSNA Stormshield</li>
                         <li><strong>Fundamentos:</strong> Ingeniería del Software</li>
                     </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section id="languages" class="mb-16">
+            <h2 class="text-3xl font-bold mb-8 text-center section-title">Idiomas</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+                <div class="card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800">Español</h3>
+                    <p class="text-gray-600 mt-2">Nativo</p>
+                </div>
+                <div class="card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800">Rumano</h3>
+                    <p class="text-gray-600 mt-2">Nativo</p>
+                </div>
+                <div class="card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800">Inglés</h3>
+                    <p class="text-gray-600 mt-2">Nivel Intermedio (B1)</p>
                 </div>
             </div>
         </section>
